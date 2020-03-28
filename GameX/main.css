@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#Loader {
+  background-color: #fff;
+  position: absolute;
+  top: 40%;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+#hi {
+  font-size: 5vw;
+  color: rgb(52, 60, 158);
+}
+#moment {
+  font-size: 2vw;
+  color: rgb(253, 102, 47);
+}
+main {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+#app {
+  width: 100vw;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#app p {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(254, 255, 247);
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+
+#factors {
+  width: 60%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.factor {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.factor label {
+  font-size: 2em;
+  color: #fc511d;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.factor input {
+  font-size: 1.5em;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+#calcBtn {
+  background-color: rgb(95, 248, 95);
+  border: none;
+  outline: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 10px;
+  font-weight: 800;
+  color: #ffff;
+  text-transform: uppercase;
+}
